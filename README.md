@@ -25,32 +25,31 @@ end)
 
 ```Lua
 
-
 -- mrpdggate1 created by Surya Bhai
 Config.DoorList['mrpdggate-mrpdggate1'] = {
-    doorType = 'sliding',
+    distance = 5,
+    doorLabel = 'mrpdggate1',
+    locked = true,
+    doorRate = 1.0,
     authorizedJobs = { ['police'] = 0 },
-    objName = -768779561,
     fixText = false,
     objYaw = 90.000022888184,
-    distance = 5,
-    objCoords = vec3(408.9983, -1024.17957, 28.4454632),
-    doorLabel = 'mrpdggate1',
-    doorRate = 1.0,
-    locked = true,
+    doorType = 'sliding',
+    objCoords = vec3(409.180389, -1017.160645, 28.600508),
+    objName = -768779561,
 }
 
 -- mrpdggate2 created by Surya Bhai
 Config.DoorList['mrpdggate-mrpdggate2'] = {
-    doorType = 'sliding',
+    distance = 5,
+    doorLabel = 'mrpdggate2',
+    locked = true,
+    doorRate = 1.0,
     authorizedJobs = { ['police'] = 0 },
-    objName = -768779561,
     fixText = false,
     objYaw = 270.0,
-    distance = 5,
-    objCoords = vec3(409.484467, -1024.80493, 28.6533852),
-    doorLabel = 'mrpdggate2',
-    doorRate = 1.0,
-    locked = true,
+    doorType = 'sliding',
+    objCoords = vec3(409.296326, -1031.273926, 28.601299),
+    objName = -768779561,
 }
 ```
